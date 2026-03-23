@@ -18,7 +18,6 @@ const App = () => {
             <Hero/>
             <ProductViewer/>
             <Showcase/>
-            <Perfomance/>
             <Features/>
             <Highlights/>
             <Footer/>
