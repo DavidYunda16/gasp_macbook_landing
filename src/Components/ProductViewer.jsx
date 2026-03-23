@@ -1,5 +1,5 @@
 import React from "react";
-import useMacbookStore from "../store";
+import useMacbookStore from "../Store";
 import clsx from "clsx";
 import { Canvas } from "@react-three/fiber";
 import StudioLight from "./three/StudioLight.jsx";
@@ -31,13 +31,6 @@ const ProductViewer = () => {
                             className={clsx(
                                 "bg-neutral-900",
                                 color === "#2e2c2e" && "active"
-                            )}
-                        />
-                        <div
-                            onClick={() => setColor("#6f7891")}
-                            className={clsx(
-                                "bg-blue-400",
-                                color === "#6f7891" && "active"
                             )}
                         />
                     </div>
