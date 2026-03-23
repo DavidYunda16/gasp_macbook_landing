@@ -5,7 +5,7 @@ Command: npx gltfjsx@6.5.3 macbook-14.glb -T
 
 import React, { useEffect } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
-import useMacbookStore from "../store";
+import useMacbookStore from "../Store";
 import { Color, SRGBColorSpace } from "three";
 import { noChangeParts } from "../constants";
 
